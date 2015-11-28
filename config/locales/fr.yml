@@ -184,7 +184,7 @@ fr:
         analytics_link_text: "connecter un compte Google Analytics"
         settings: "Il y a bien d'autres réglages que vous pouvez manipuler. Par exemple, vous pouvez demander à chacun d'avoir une invitation de la part d'un autre utilisateur pour pouvoir rejoindre votre place de marché, ou encore rendre votre place de marché privée afin que seuls les utilisateurs qui sont connectés puissent en voir le contenu. %{settings_link}"
         settings_link_text: "Parcourir les réglages de votre place de marché."
-        final_words: "Voici le principal ! Si tout est prêt, vous pouvez commencer à %{invite_link} dans votre place de marché. Vous pouvez voir la liste des utilisateurs qui l'ont rejointe %{view_users_link} ainsi que toutes les transactions réalisées %{view_transactions_link}. Vous pouvez également gérer les annonces facilement : rendez-vous sur la page d'une annonce et vous verrez des liens pour l'éditer ou la clore. Si vous avez besoin d'aide, vous pouvez %{contact_support_link} : nous sommes là pour vous !"
+        final_words: "Voici le principal ! Si tout est prêt, vous pouvez commencer à %{invite_link} dans votre place de marché. Vous pouvez voir la liste des utilisateurs qui l'ont rejointe %{view_users_link} ainsi que toutes les transactions réalisées %{view_transactions_link}. Vous pouvez également gérer les annonces facilement : rendez-vous sur la page d'une annonce et vous verrez des liens pour l'éditer ou la fermer. Si vous avez besoin d'aide, vous pouvez %{contact_support_link} : nous sommes là pour vous !"
         invite_link_text: "inviter des utilisateurs"
         view_users_link_text: ici
         view_transactions_link_text: ici
@@ -441,14 +441,14 @@ fr:
       action_button_label: "Libellé du bouton de transaction"
       action_button_placeholder: "Par ex. : Acheter"
       open_listings_warning:
-        one: "Il y a %{count} annonce utilisant ce type de transaction. Si vous modifiez l'un des paramètres ci-dessous, cette annonce conservera les anciens paramètres. Cette annonce pourra être modifiée pour utiliser les nouveaux paramètres en l'éditant manuellement. Si vous ne souhaitez pas conserver cette annonce visible sur votre site avec les anciens paramètres, vous pouvez la clore en cliquant sur le bouton ci-dessous."
-        other: "Il y a %{count} annonces utilisant ce type de transaction. Si vous modifiez l'un des paramètres ci-dessous, ces annonces conserveront les anciens paramètres. Ces annonces pourront être modifiées pour utiliser les nouveaux paramètres en les éditant manuellement. Si vous ne souhaitez pas conserver ces annonces visibles sur votre site avec les anciens paramètres, vous pouvez les clore en cliquant sur le bouton ci-dessous."
+        one: "Il y a %{count} annonce utilisant ce type de transaction. Si vous modifiez l'un des paramètres ci-dessous, cette annonce conservera les anciens paramètres. Cette annonce pourra être modifiée pour utiliser les nouveaux paramètres en l'éditant manuellement. Si vous ne souhaitez pas conserver cette annonce visible sur votre site avec les anciens paramètres, vous pouvez la fermer en cliquant sur le bouton ci-dessous."
+        other: "Il y a %{count} annonces utilisant ce type de transaction. Si vous modifiez l'un des paramètres ci-dessous, ces annonces conserveront les anciens paramètres. Ces annonces pourront être modifiées pour utiliser les nouveaux paramètres en les éditant manuellement. Si vous ne souhaitez pas conserver ces annonces visibles sur votre site avec les anciens paramètres, vous pouvez les fermer en cliquant sur le bouton ci-dessous."
       close_listings_action:
-        one: "Clore %{count} annonce"
-        other: "Clore %{count} annonces"
+        one: "Fermer %{count} annonce"
+        other: "Fermer %{count} annonces"
       confirm_close_listings_action:
-        one: "Voulez-vous vraiment clore %{count} annonce ?"
-        other: "Voulez-vous vraiment clore %{count} annonces ?"
+        one: "Voulez-vous vraiment fermer %{count} annonce ?"
+        other: "Voulez-vous vraiment fermer %{count} annonces ?"
       successfully_closed: "Les annonces ont été closes avec succès"
       successfully_deleted: "Type de transaction '%{order_type}' supprimé avec succès"
       pricing_and_checkout_title: "Prix et transaction"
@@ -582,8 +582,8 @@ fr:
       accept_request: "Accepter la demande"
       reject_offer: "Pas cette fois"
       reject_request: "Pas cette fois"
-      close_listing: "Clore l'annonce %{listing_title_link}"
-      update_later: "Ne pas clore l'annonce (vous pourrez la modifier ou la clore plus tard)"
+      close_listing: "Fermer l'annonce %{listing_title_link}"
+      update_later: "Ne pas fermer l'annonce (vous pourrez la modifier ou la fermer plus tard)"
       optional_message: "Message complémentaire"
       price_to_pay: "Montant total à payer"
       you_need_to_fill_payout_details_before_accepting: "Vous devez compléter les détails de paiements avant de pouvoir accepter la demande et recevoir le paiement. Allez aux %{payment_settings_link} pour compléter les détails."
@@ -1336,7 +1336,7 @@ fr:
       offer_canceled: "Offre annulée"
       listing_updated_successfully: "Annonce mise à jour avec succès"
       only_kassi_administrators_can_access_this_area: "Seuls les administrateurs de %{service_name} peuvent accéder à ces pages"
-      only_listing_author_can_close_a_listing: "Seul l'auteur de l'annonce peut la clore"
+      only_listing_author_can_close_a_listing: "Seul l'auteur de l'annonce peut la fermer"
       only_listing_author_can_edit_a_listing: "Seul l'annonce de liste peut la modifier"
       payment_successful: "Paiement réussi"
       payment_canceled: "Paiement annulé"
@@ -1433,7 +1433,7 @@ fr:
     edit:
       edit_listing: "Editer l'annonce"
     edit_links:
-      close_listing: "Clore l'annonce"
+      close_listing: "Fermer l'annonce"
       edit_listing: "Editer l'annonce"
       reopen_listing: "Ré-ouvrir l'annonce"
       move_to_top: "Remonter en tête de liste"
