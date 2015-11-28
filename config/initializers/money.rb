@@ -80,6 +80,21 @@ MoneyRails.configure do |config|
     smallest_denomination:  1
   }
 
+ config.register_currency = {
+    :priority            => 200,
+    :iso_code            => "GNF",
+    :name                => "Guinean Franc",
+    :symbol              => "GNF",
+    :alternate_symbols   => ["Gnf", "GFr"],
+    :subunit             => "Rappen",
+    :subunit_to_unit     => 100,
+    :symbol_first        => false,
+    :html_entity         => "",
+    :decimal_mark        => ".",
+    :thousands_separator => ",",
+    :iso_numeric         => "324"
+  }
+
 
   # Register a custom currency
   #
